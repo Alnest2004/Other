@@ -1,0 +1,59 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Unit1, Vcl.Imaging.jpeg,
+  Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    StaticText5: TStaticText;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3;
+
+
+
+
+
+
+procedure TForm2.FormCreate(Sender: TObject);
+begin
+StaticText1.Width:=593;
+StaticText1.Height:=48;
+StaticText2.Width:=593;
+StaticText2.Height:=49;
+StaticText3.Width:=593;
+StaticText3.Height:=32;
+StaticText4.Width:=593;
+StaticText4.Height:=69;
+StaticText5.Width:=593;
+StaticText5.Height:=33;
+end;
+
+end.
